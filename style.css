@@ -66,3 +66,21 @@ body {
     width: 256px;
     margin-left: 32px;
 }
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .qr-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .text1, .text2 {
+        width: 100%;
+        margin-left: 0;
+    }
+}
